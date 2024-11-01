@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>რეგისტრაცია</h1>
+    <form action="#" method="post">
+        <label for="firstName">სახელი:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <small>ტიპი: text (ყველა ტიპის ტექსტი)</small><br>
+
+        <label for="lastName">გვარი:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <small>ტიპი: text (ყველა ტიპის ტექსტი)</small><br>
+
+        <label for="email">ემაილი:</label>
+        <input type="email" id="email" name="email" required>
+        <small>ტიპი: email (უნდა იყოს ფორმატი: nebismieri@gmail.com)</small><br>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required>
+        <small>ტიპი: password (ანონიმური ტექსტი)</small><br>
+
+        <label for="age">ასაკი:</label>
+        <input type="number" id="age" name="age" required>
+        <small>ტიპი: number (მხოლოდ რიცხვები)</small><br>
+
+        <label for="gender">სქესი:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">მამაკაცი</option>
+            <option value="female">ქალი</option>
+            <option value="other">სხვა</option>
+        </select>
+        <small>ტიპი: select (გაირჩიეთ ერთი ვარიანტი)</small><br>
+
+        <button type="submit">რეგისტრაცია</button>
+    </form>
+</html>
