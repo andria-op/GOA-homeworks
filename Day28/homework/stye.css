@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: red;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    color: yellow;
+}
+
+.food {
+    text-align: center;
+    margin: 20px;
+}
+
+.food-name {
+    color: lightgreen;
+}
+
+.food-info {
+    color: lightblue;
+}
