@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: lightblue;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+p {
+    color: yellow;
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}

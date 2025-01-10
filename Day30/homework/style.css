@@ -1,0 +1,25 @@
+/* 4 ს კოდი */
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-warning {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
